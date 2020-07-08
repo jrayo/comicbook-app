@@ -102,6 +102,7 @@ const Img = styled.img`
     width:40vw;
     align-self:center;
     right:0;
+    max-width:60vh;
     @media only screen and (max-width: 480px)  {
         width:60vw;
     }
