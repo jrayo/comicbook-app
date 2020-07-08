@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/comicbook-app/static/css/main.92c4b1c9.chunk.css",
+    "main.js": "/comicbook-app/static/js/main.6c2dcfd2.chunk.js",
+    "main.js.map": "/comicbook-app/static/js/main.6c2dcfd2.chunk.js.map",
+    "runtime-main.js": "/comicbook-app/static/js/runtime-main.dc0259bc.js",
+    "runtime-main.js.map": "/comicbook-app/static/js/runtime-main.dc0259bc.js.map",
+    "static/js/2.fdcd255d.chunk.js": "/comicbook-app/static/js/2.fdcd255d.chunk.js",
+    "static/js/2.fdcd255d.chunk.js.map": "/comicbook-app/static/js/2.fdcd255d.chunk.js.map",
+    "index.html": "/comicbook-app/index.html",
+    "precache-manifest.0258b9b5f3a2cc5a352fd44f04709366.js": "/comicbook-app/precache-manifest.0258b9b5f3a2cc5a352fd44f04709366.js",
+    "service-worker.js": "/comicbook-app/service-worker.js",
+    "static/css/main.92c4b1c9.chunk.css.map": "/comicbook-app/static/css/main.92c4b1c9.chunk.css.map",
+    "static/js/2.fdcd255d.chunk.js.LICENSE.txt": "/comicbook-app/static/js/2.fdcd255d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc0259bc.js",
+    "static/js/2.fdcd255d.chunk.js",
+    "static/css/main.92c4b1c9.chunk.css",
+    "static/js/main.6c2dcfd2.chunk.js"
+  ]
+}
