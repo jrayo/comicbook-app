@@ -3,7 +3,7 @@
 
 ## Description
 
-Description ComicBook app developed with React. Data was fetched from ComicVine: https://comicvine.gamespot.com/api/documentation. 
+ComicBook app developed with React. Data was fetched from ComicVine: https://comicvine.gamespot.com/api/documentation. 
 
 The application shows the last comics added, as well as the detail for the clicked comic and a toggle option for displaying as a List or a Grid.
 
