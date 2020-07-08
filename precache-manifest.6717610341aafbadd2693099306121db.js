@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f91a696a0c4ab92e00f82eba904c41d4",
+    "revision": "0fdb2eb667f4f3bb979a5c047509b1ef",
     "url": "/comicbook-app/index.html"
   },
   {
-    "revision": "5aecc601c123e77d1090",
+    "revision": "f2ba23d6e7fcc907bdba",
     "url": "/comicbook-app/static/css/main.92c4b1c9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comicbook-app/static/js/2.347e2678.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5aecc601c123e77d1090",
-    "url": "/comicbook-app/static/js/main.f64b3b3a.chunk.js"
+    "revision": "f2ba23d6e7fcc907bdba",
+    "url": "/comicbook-app/static/js/main.0db851e2.chunk.js"
   },
   {
     "revision": "104fb77a07abe87e22c9",
