@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import styled from 'styled-components';
 import { comicsSelector  } from '../../slices/comics'
 import { Link } from "react-router-dom";
+import Moment from 'react-moment';
 
 function GridDisplay(props) {
     const result = useSelector(comicsSelector)
@@ -17,7 +18,9 @@ function GridDisplay(props) {
                                 <Img src={comic.image.original_url} alt={comic.volume.name} />
                                 <ComicInfo>
                                     <strong>{comic.volume.name} {comic.issue_number.match(/^[0-9]+$/) != null?'#'+comic.issue_number:comic.issue_number}</strong>
-                                    <DateText>{comic.date_added}</DateText>
+                                    <DateText>
+                                        <Moment format="MMM DD, YYYY">{comic.date_added}</Moment>
+                                    </DateText>
                                 </ComicInfo>
                             </Col>
                         )
