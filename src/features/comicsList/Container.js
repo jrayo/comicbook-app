@@ -45,7 +45,7 @@ function Container() {
 
   return (
     <ContainerView>
-      <Header>
+      <Header className="headerComponent">
         <Title> ComicBook </Title>
         <Menu>
             <b>Latest Issues</b>
@@ -108,15 +108,20 @@ const DisplayType= styled.div`
   width:8em;
   display:flex;
 `
-const List = styled.div`
+const List = styled.button`
+  border:none;
+  outline:none;
   padding-left:0.5em;
   padding-right:0.5em;
   &:hover {
     cursor: pointer;
   }
+  
 `
 
-const Grid = styled.div`
+const Grid = styled.button`
+  border:none;
+  outline:none;
   padding-left:0.5em;
   padding-right:0.5em;
   &:hover {

@@ -5,8 +5,8 @@ import store from './app/store'
 
 function App() {
   return (
-    <Provider store={store}>
-        <Route/>
+    <Provider store={store} >
+        <Route data-test="headerComponent"/>
     </Provider>
   );
 }
