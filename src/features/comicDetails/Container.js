@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList, faTh, faSpinner } from '@fortawesome/free-solid-svg-icons';
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchComic, comicSelector } from '../../slices/comic'
+import { useDispatch } from 'react-redux'
+import { fetchComic } from '../../slices/comic'
 import { getId } from "../../helpers/urlUtils"
 import ComicDetail from './ComicDetail'
 import { Link } from "react-router-dom";
@@ -55,14 +53,6 @@ const Title = styled.h1`
     &:focus, &:hover, &:visited, &:link, &:active {
         text-decoration: none;
     };
-`
-const LoadingComponent = styled.div`
-  display:flex;
-  flex:1;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  padding-top: 5em;
 `
 
 export default Container;

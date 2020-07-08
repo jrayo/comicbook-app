@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import { fetchComic, comicSelector, charactersSelector } from '../../slices/comic'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react';
+import { comicSelector } from '../../slices/comic'
+import { useSelector } from 'react-redux'
 
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

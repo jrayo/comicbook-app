@@ -10,8 +10,6 @@ import { fetchComics, comicsSelector } from '../../slices/comics'
 function Container() {
   const [typeOfView, setTypeOfView] = React.useState('list')
 
-  const [comicsList, setComicsList] = React.useState([])
-
   const handleIconColor = (typeOfComponent) => {
     if(typeOfView===typeOfComponent){
       return 'green'

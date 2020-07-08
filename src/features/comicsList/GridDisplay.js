@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React  from 'react';
 import { useSelector } from 'react-redux'
 import styled from 'styled-components';
-import { comicsSelector, selectComic  } from '../../slices/comics'
+import { comicsSelector  } from '../../slices/comics'
 import { Link } from "react-router-dom";
 
 function GridDisplay(props) {

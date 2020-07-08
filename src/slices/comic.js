@@ -75,16 +75,16 @@ export function fetchComic(issue_number) {
             return Promise.all(promises);
         }
 
-        const arrayCharacters = await mapCredits(data.results.character_credits)
+        await mapCredits(data.results.character_credits)
                                 .then(characters=> dispatch(setCharacters(characters)))
 
-        const arrayTeams = await mapCredits(data.results.team_credits)
+        await mapCredits(data.results.team_credits)
                                 .then(teams=> dispatch(setTeams(teams)))
 
-        const arrayLocations = await mapCredits(data.results.location_credits)
+        await mapCredits(data.results.location_credits)
             .then(locations=> dispatch(setLocations(locations)))
 
-        const arrayConcept = await mapCredits(data.results.concept_credits)
+        await mapCredits(data.results.concept_credits)
             .then(concepts=> dispatch(setConcepts(concepts)))
         
     } catch (error) {
