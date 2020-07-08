@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/comicbook-app/precache-manifest.6ffcfeb9be465fa2b22fd37c6261cb1c.js"
+  "/comicbook-app/precache-manifest.6e168614061992d11ba842e8a6bd80e2.js"
 );
 
 self.addEventListener('message', (event) => {
