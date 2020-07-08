@@ -1,4 +1,27 @@
+
+# ComicBook App
+
+## Description
+
+ComicBook app developed with React. Data was fetched from ComicVine: https://comicvine.gamespot.com/api/documentation. 
+
+The application shows the last comics added, as well as the detail for the clicked comic and a toggle option for displaying as a List or a Grid.
+
+## Technologies
+
+This project has been developed with React, redux, redux-toolkit and styled-components.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+
+## Live Demo: https://jrayo.github.io/comicbook-app/
+
+## Setup
+
+Git clone this repository or download directly.
+
+Install dependencies running `npm install` in the folder terminal
+
+Start developing running `npm start` in the terminal
 
 ## Available Scripts
 
