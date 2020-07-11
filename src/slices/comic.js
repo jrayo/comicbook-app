@@ -10,7 +10,7 @@ export const initialState = {
   concepts:[]
 }
 
-// A slice for comics with our three reducers
+// A slice for comics with our reducers
 const comicSlice = createSlice({
   name: 'comic',
   initialState,
@@ -42,7 +42,7 @@ const comicSlice = createSlice({
   },
 })
 
-// Three actions generated from the slice
+// Actions generated from the slice
 export const { getComic, getComicSuccess, getComicFailure, setCharacters, setTeams, setLocations, setConcepts } = comicSlice.actions
 
 // A selector
